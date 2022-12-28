@@ -1,6 +1,7 @@
 import { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "../hooks/useMediaQuery";
+import MenuIcon from "../assets/menu-icon.svg";
 
 const Link = ({ page, selectedPage, setSelectedPage }) => {
     const lowerCasePage = page.toLowerCase();
@@ -59,7 +60,7 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                         className="rounded-full bg-red p-2"
                         onClick={() => setIsMenuToggled(!isMenuToggled)}
                     >
-                        <img alt="menu-icon" src="../assets/menu-icon.svg" />
+                        <img alt="menu-icon" src={MenuIcon} />
                     </button>)}
             </div>
         </nav>
