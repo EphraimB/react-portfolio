@@ -33,8 +33,34 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
                             selectedPage={selectedPage}
                             setSelectedPage={setSelectedPage}
                         />
+                        <Link
+                            page="Skills"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
+                        <Link
+                            page="Projects"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
+                        <Link
+                            page="Testimonials"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
+                        <Link
+                            page="Contact"
+                            selectedPage={selectedPage}
+                            setSelectedPage={setSelectedPage}
+                        />
                     </div>
-                ) : (<div></div>)}
+                ) : (
+                    <button
+                        className="rounded-full bg-red p-2"
+                        onClick={() => setIsMenuToggled(!isMenuToggled)}
+                    >
+                        <img alt="menu-icon" src="../assets/menu-icon.svg" />
+                    </button>)}
             </div>
         </nav>
     )
