@@ -38,6 +38,6 @@ const Navbar = ({ selectedPage, setSelectedPage }) => {
             </div>
         </nav>
     )
-}
+};
 
 export default Navbar;
