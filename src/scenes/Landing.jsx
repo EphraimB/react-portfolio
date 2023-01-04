@@ -27,6 +27,7 @@ const Landing = ({ setSelectedPage }) => {
                     />
                 )}
             </div>
+
             {/* MAIN SECTION */}
             <div className="z-30 basis-2/5 mt-12 md:mt-32">
                 {/* HEADINGS */}
@@ -51,8 +52,8 @@ const Landing = ({ setSelectedPage }) => {
                     </p>
                 </motion.div>
             </div>
-        </section >
-    )
+        </section>
+    );
 }
 
 export default Landing;
