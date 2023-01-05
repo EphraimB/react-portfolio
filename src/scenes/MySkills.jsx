@@ -26,7 +26,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
-                        Thses are my interesting unique skills
+                        These are my interesting unique skills
                     </p>
                 </motion.div>
 
