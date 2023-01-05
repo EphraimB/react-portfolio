@@ -43,9 +43,9 @@ const Landing = ({ setSelectedPage }) => {
                     }}
                 >
                     <p className="text-6xl font-playfair z-10 text-center md:text-start">
-                        Jane {""}
+                        Ephraim {""}
                         <span className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush before:absolute before:-left-[40px] before:-top-[140px] before:z-[-1]">
-                            Esper
+                            Becker
                         </span>
                     </p>
                     <p className="mt-10 mb-7 text-sm text-center md:text-start">
@@ -93,9 +93,7 @@ const Landing = ({ setSelectedPage }) => {
                         visible: { opacity: 1, x: 0 },
                     }}
                 >
-                    <SocialMediaIcons>
-
-                    </SocialMediaIcons>
+                    <SocialMediaIcons />
                 </motion.div>
             </div>
         </section>
