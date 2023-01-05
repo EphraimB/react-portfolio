@@ -74,7 +74,7 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Just some stupid gibberish in your cool life.
+                        Coding, some gaming, some video editing
                     </p>
                 </motion.div>
 
@@ -100,7 +100,7 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Just some stupid gibberish in your cool life.
+                        Trying to make a cool personal website that helps me with budgeting and social skills and sends my message to the world
                     </p>
                 </motion.div>
                 <motion.div
@@ -124,7 +124,7 @@ const MySkills = () => {
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Just some stupid gibberish in your cool life.
+                        Trying to make my website in an imaginative way
                     </p>
                 </motion.div>
             </div>
