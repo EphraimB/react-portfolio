@@ -49,7 +49,7 @@ const Landing = ({ setSelectedPage }) => {
                         </span>
                     </p>
                     <p className="mt-10 mb-7 text-sm text-center md:text-start">
-                        Just a placeholder name
+                        Autistic person having a hard time with social boundaries
                     </p>
                 </motion.div>
 
