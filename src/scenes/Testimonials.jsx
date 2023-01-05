@@ -37,12 +37,27 @@ const Testimonials = () => {
                     viewport={{ once: true, amount: 0.5 }}
                     transition={{ duration: 0.5 }}
                     variants={{
-                        hidden: { opacity: 0, y: -50 },
-                        visible: { opacity: 1, y: 0 },
+                        hidden: { opacity: 0, scale: 0.8 },
+                        visible: { opacity: 1, scale: 1 },
                     }}>
                         <p className="font-playfair text-6xl">"</p>
                         <p className="text-center text-xl">
                             First testimonial
+                        </p>
+                </motion.div>
+                <motion.div
+                    className={`bg-blue ${testimonialStyles} before:content-person2`}
+                    initial="hidden"
+                    whileInView="visible"
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ delay: 0.2, duration: 0.5 }}
+                    variants={{
+                        hidden: { opacity: 0, scale: 0.8 },
+                        visible: { opacity: 1, scale: 1 },
+                    }}>
+                        <p className="font-playfair text-6xl">"</p>
+                        <p className="text-center text-xl">
+                            Second testimonial
                         </p>
                 </motion.div>
             </div>
